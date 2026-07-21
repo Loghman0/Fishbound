@@ -1,0 +1,27 @@
+{
+  "name": "fishbound2-v2",
+  "private": true,
+  "version": "0.5.0",
+  "type": "module",
+  "description": "Fishbound 2 - cozy/tense pixel-art fishing adventure (Vite + TS + Phaser 3). Stage 3 MVP.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json}\""
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.10"
+  }
+}
